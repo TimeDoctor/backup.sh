@@ -6,6 +6,8 @@ Some things to consider to make this fully automated:
 2. SSH Key
 
 Create whatever filename you want so mysqldump won't prompt you with a password
-`[mysqldump]
+```
+[mysqldump]
 user=your_user
-password=your_pass`
+password=your_pass
+```
